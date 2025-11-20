@@ -1,0 +1,1202 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+header {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+        font-family: 'Comfortaa';
+        margin: 0;
+        padding: 0;
+    }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lien_texte{
+    display:none;
+}
+
+.texte {
+    color: #9A9A9A;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.profil {
+    height: 30px;
+}
+
+.loupe {
+    height: 30px;
+}
+
+.ajout {
+    height: 30px;
+}
+
+.logo_entier {
+    display: none
+}
+
+.logo_car{
+    display: inline-block;
+    padding-top: 20px;
+    height: 55px;
+}
+
+#lien a{
+    padding-right:20px;
+}
+
+.pictos{
+    padding-top: 20px;
+    height: 50px;
+}
+
+
+.banniere{
+    background: url("../img/logo_slogan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 175px;
+    width:100%;
+    z-index:1;
+}
+
+.boutons{
+    width: 150px;
+    height: 225px;
+    background-color: white;
+    z-index: 2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bouton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.bouton a{
+    background-color: #306F9D;
+    border-radius: 40px;
+    padding: 10px;
+    color:white;
+}
+
+.bouton a:hover{
+    background-color:white;
+    color: #306F9D;
+    border: 2px solid #306F9D;
+    text-decoration: none;
+    
+}
+
+.presentation{
+    margin-top: 50px;
+}
+
+.block1{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: #306F9D;
+    height: 550px;
+}
+
+.slogan{
+    height: 150px;
+}
+
+.block_texte{
+    color: white;
+    font-size: 15px;
+    margin: 10px 20px;
+}
+
+.block_texte h2{
+    color:white;
+    font-size: 20px;
+}
+
+.sousbloc1{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    color: #808080;
+    font-size: 15px;
+    margin-top: 100px;
+}
+
+.sousbloc1 h2{
+    font-size: 20px;
+}
+
+.sousbloc1 a{
+    margin-top: 10px;
+    padding:10px;
+    border: 2px solid #306F9D;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #306F9D;
+}
+
+.sousbloc1 a:hover{
+    border: 2px solid white;
+    color: white;
+    background-color: #306F9D;
+    text-decoration: none;
+}
+
+.block3{
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block_texte2 {
+    color: white;
+    font-size: 15px;
+    background-color: #5db947;
+    border-radius: 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.block_texte2 h2{
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+}
+.logo_acyet{
+    margin: 20px;
+    height: 50px;
+}
+
+#inscription {
+    display: flex;
+    justify-content: center;
+}
+
+#tableau {
+    border: solid 1px black;
+    width: 60%;
+}
+
+#tableau2 {
+    border: solid 1px black;
+}
+
+.texte1 {        
+    color: #9A9A9A;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+   }
+
+   .titre {
+       display: flex;
+       justify-content: center;   
+
+   }
+
+   #profil {
+       color: #9A9A9A;
+       font-family: 'Comfortaa';
+       font-size: 18px;
+       display: flex;
+       justify-content: center;    
+   }
+
+   #profil_texte {
+       color: #9A9A9A;
+       font-family: 'Comfortaa';
+       font-size: 13px;
+       display: flex;
+       justify-content: center;    
+   }
+
+   #contenu {
+       margin-top: 80px;
+       margin-bottom: 0;
+       margin-left: 1%;
+       margin-right: 1%;
+       width: 98%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+
+   #profil_contenue {        
+       width: 25vh;
+       height: 3vh;
+       border-radius: 80px;
+       border: 1px solid #306F9D;
+       background-color: #e3f7ff;
+       font-size: 13px;
+   }
+
+   #PROFIL {
+       display: flex;
+       justify-content: center;
+   }
+
+   #formco {
+       border: 0.5px solid black;
+       border-radius: 30px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 15px;
+       box-shadow: 4px 5px 7px #3f3f3f;
+       margin-inline: 13px;
+       margin-bottom: 20px;
+   }
+
+   .oubli {
+       color: #737373;
+       font-family: 'Comfortaa';
+       font-size: 12px; 
+       text-decoration: underline;
+   }
+
+   .oubli:hover {
+       color: #737373;
+       font-family: 'Comfortaa';
+       font-size: 12px; 
+       text-decoration: none;
+   }
+
+   input {
+       border: 0.5px solid black;
+       border-radius: 10px;
+       padding: 10px;
+       margin: 10px;
+       width: 70%;
+       background-color: #e3f7ff;
+   }
+   
+   #submit {
+       box-sizing: border-box;
+       align-items: center;
+       border-radius: 24px;
+       padding: 12px 16px;
+       text-align: center;
+       width: 50%;
+       background: #61BB4A;
+       border: 1px solid 4e9c3b;
+       color: #ffffff;
+       cursor: pointer;
+   }
+
+   #conn{
+       text-align: center;
+   }
+
+   #inscri {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       border: 0.5px solid black;
+       border-radius: 30px;
+       padding: 15px;
+       box-shadow: 4px 5px 7px #3f3f3f;
+       margin-inline: 13px;
+       margin-bottom: 20px;
+   }
+     
+   #inscription {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-bottom: 10px;
+     }
+     
+   label {
+       text-align: center;
+   }
+     
+   input[type="text"],
+   input[type="tel"],
+   input[type="email"],
+   input[type="password"] {
+       width: 200px;
+   }
+
+   #tab_style {
+       padding: 8px 35px;
+       color: #9A9A9A;
+       font-family: 'Comfortaa';
+       font-size: 13px;
+       border: 0.5px solid black;
+       border-radius: 100px;
+       display: flex;
+       justify-content: center;
+   }
+   
+   #form_contact_mess {
+       padding: 8px 35px;
+       color: #9A9A9A;
+       font-family: 'Comfortaa';
+       font-size: 13px;
+       border: 0.5px solid black;
+       border-radius: 10px;
+       display: flex;
+       justify-content: center;
+   }
+
+   #contenu-contact {
+       color: #9A9A9A;
+       font-family: 'Comfortaa';
+       font-size: 13px;
+       display: flex;
+       justify-content: center;
+   }
+
+   #contact_titre {
+       font-family: 'Comfortaa';
+       font-size: 19px;
+       display: flex;
+       justify-content: center;
+   }
+
+   #contact_description {
+       font-family: 'Comfortaa';
+       font-size: 14px;
+       display: flex;
+       justify-content: center;
+   }
+
+   #tab {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-bottom: 10px;
+   }
+
+
+   #footer {
+       display: flex;
+       justify-content: space-evenly;
+       background-color: #306F9D;
+       color: white;
+       position: relative;
+       height: 40vh;
+     }
+   
+   h3 {
+       color: white;
+   }
+
+   a {
+       text-decoration: none;
+       color: white;
+   }
+
+   #acyets{
+       position: absolute;
+       top: 90%;
+   }
+
+   .liens_footer{
+       display: flex;
+       flex-direction: column;
+       align-items: flex-end;
+   }
+
+   .liens_footer a{
+       margin-bottom: 20px;
+   }
+
+    a:hover {
+        color: #61BB4A;
+        text-decoration: underline;
+    }
+
+    #gestion_liens {
+        color: #9A9A9A;
+        font-family: 'Comfortaa';
+    }
+
+   #form{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   form {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       background-color: rgb(255, 255, 255);
+       width: 50vh;
+       border: 1px solid #000000;
+       border-radius: 30px;
+       box-shadow: 4px 5px 7px #3f3f3f;
+       margin-bottom: 10vh;
+       padding-top: 3vh;
+       padding-bottom: 3vh;
+     }      
+
+   .element_form{
+       width: 25vh;
+       height: 3vh;
+       border-radius: 80px;
+       border: 1px solid #306F9D;
+       background-color: #e3f7ff;
+   }
+
+   #envoyer_form{
+       width: 17vh;
+       height: 5vh;
+       border-radius: 80px;
+       background-color: #61BB4A;
+       transition: all ease 0.3s;
+       color: white;
+
+   }
+
+   #envoyer_form:hover{
+       background-color: white;
+       border: 1px solid #61BB4A;
+       color: #61BB4A;
+       font-family: 'Comfortaa';
+   }
+
+   #proposer{
+       display: flex;
+       justify-content: center;
+   }
+
+   textarea {
+       border: 0.5px solid black;
+       border-radius: 10px;
+       padding: 10px;
+       margin: 10px;
+       width: 70%;
+       background-color: #e3f7ff;
+   }
+
+   #envoyer {
+       background-color: #61BB4A;
+       color: white;
+   }
+
+   #modifier {
+       width: 17vh;
+       height: 5vh;
+       border-radius: 80px;
+       border: 1px solid #000000;
+       background-color: #61BB4A;
+       transition: all ease 0.3s;  
+       color: white;  
+   }
+
+   #reserver_font {
+    background: url("../img/");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#reserver_titre {
+    font-family: 'Comfortaa';
+    color: blue;
+    text-align: center;
+    font-size: 18px;
+    }
+
+#reserver_titre2 {
+    font-family: 'Comfortaa';
+    font-weight:bold;
+    color: blue;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    }
+
+#reserver_titre3 {
+    font-family: 'Comfortaa';
+    font-weight:bold;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#reserver_resultat {
+    color: #9A9A9A;
+    font-family: 'Comfortaa';
+    font-size: 12px;
+}
+
+#reserver_resultat2 {
+    border: 0.5px solid black;
+    border-radius: 80px;
+    padding: 10px;
+    margin: 10px;
+    width: 3%;
+    font-size: 12px;
+    background-color: #e3f7ff;
+    text-align: center;
+    font-family: 'Comfortaa';
+}
+
+#reserver_resultat3 {
+    width: 3%;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 80px;
+    border: 1px solid #000000;
+    background-color: #61BB4A;
+    transition: all ease 0.3s;
+}
+
+#reserver_resultat4 {
+    border: 0.5px solid black;
+    border-radius: 80px;
+    width: 10%;
+    background-color: #e3f7ff;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 12px;
+}
+
+
+#confirmer {
+    width:20%;
+}
+
+#confirm_reservation {
+    background-color: #61BB4A;
+    color: white;
+}
+
+#reserver-trajet {
+    color: #9A9A9A;
+    font-family: 'Comfortaa';
+    font-size: 10px;
+}
+
+@media all and (min-width:480px) {
+
+    header {
+        position: fixed;
+        background-color: white;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .texte {
+        color: #9A9A9A;
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    
+    .logo_entier {
+        height: 100px;
+        display: inline-block;
+    }
+    
+    .logo_car{
+        height:50px;
+        display: none;
+    }
+    
+    .pictos {
+        display: flex;
+        height: 40px;
+    }
+    
+    #lien {
+        display: flex;
+        align-items: center;
+        float:right;
+        font-size: 20px;
+    }
+    
+    #lien a{
+        padding-right:20px;
+    }
+    
+    #contenu {
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .profil {
+        height: 30px;
+    }
+    
+    .loupe {
+        height: 30px;
+    }
+    
+    .ajout {
+        height: 30px;
+    }
+    
+    .pictos img{
+        padding-right:20px;
+    }
+    
+    #lien {
+        display: flex;
+        align-items: center;
+        float:right;
+    }
+    
+    #lien a{
+        padding-right:20px;
+    }
+    
+    #contenu {
+        margin-top: 120px;
+        margin-bottom: 0;
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 98%;
+    }
+  
+    .lien_texte{
+        display:flex;
+        align-items: center;
+    }
+    
+    
+    .logo_entier {
+        height: 110px;
+        display: inline-block;
+    }
+    
+    .logo_car{
+        height:50px;
+        display: none;
+    }
+    
+    .pictos {
+        display: flex;
+        height: 40px;
+        padding-top: 0;
+    }
+    
+    .pictos img{
+        padding-right:20px;
+    }
+    
+    #lien {
+        display: flex;
+        align-items: center;
+        float:right;
+        font-size: 20px;
+    }
+    
+    #lien a{
+        padding-right:20px;
+    }
+    
+    #contenu {
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .banniere{
+        background: url("../img/logo_slogan.jpg") center 0 no-repeat fixed;
+        background-size: cover;
+        height: 500px;
+        width:100%;
+        z-index:1;
+    }
+    
+    .boutons{
+        width: 800px;
+        height: 100px;
+        position: absolute;
+        z-index: 2;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+    
+    .bouton{
+        flex-direction: initial;
+        font-size: 30px;
+    }
+    
+    .bouton a{
+        margin: auto 20px;
+    }
+    
+    
+    .presentation{
+        margin-top: 150px;
+    }
+    
+    .block1{
+        flex-direction: initial;
+        height: 400px;
+    }
+    
+    .slogan{
+        height: 300px;
+    }
+    
+    .block_texte{
+        font-size: 20px;
+        width: 900px;
+        color: white;
+    }
+    
+    .block_texte h2{
+        font-size: 30px;
+        margin: 40px 20px;
+    }
+
+    .sousbloc1{
+        font-size: 20px;
+    }
+
+    .sousbloc1 h2{
+        font-size: 30px;
+    }
+    
+    .block3{
+        margin-top: 100px;
+        display:flex;
+        flex-direction: initial;
+    }
+    
+    .block_texte2 {
+        width: 700px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .block_texte2 h2{
+        font-size: 30px;
+    }
+    
+    .logo_acyet{
+        height: 150px;
+    }
+    #contenu_profil {
+        margin-top: 120px;
+        margin-bottom: 0;
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #tableau {
+        border: 0.5px solid black;
+        border-radius: 30px;
+        border: solid 1px black;
+        width: 40%;
+    }
+    
+    #tableau2 {
+        border: solid 1px black;
+    }
+    
+    
+    .texte1 {        
+     color: #9A9A9A;
+     font-family: 'Comfortaa';
+     font-size: 15px;
+     text-decoration: none;
+     display: flex;
+     justify-content: center;
+    }
+    
+    .titre {
+        display: flex;
+        justify-content: center;   
+    
+    }
+    
+    #profil {
+        color: #9A9A9A;
+        font-family: 'Comfortaa';
+        font-size: 18px;
+        display: flex;
+        justify-content: center;    
+    }
+    
+    #profil_texte {
+        color: #9A9A9A;
+        font-family: 'Comfortaa';
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #profil_contenue {
+        width: 25vh;
+        height: 3vh;
+        border-radius: 80px;
+        border: 1px solid #306F9D;
+        background-color: #e3f7ff;
+    }
+    
+    #PROFIL {
+        display: flex;
+        justify-content: center;
+    }
+    
+    form {
+        border: 0.5px solid black;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        box-shadow: 4px 5px 7px #3f3f3f;
+        margin-inline: 13px;
+        margin-bottom: 20px;
+        width: 65%;
+    }
+    input {
+        border: 0.5px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        width: 85%;
+        background-color: #e3f7ff;
+    }
+    
+    #submit {
+        box-sizing: border-box;
+        align-items: center;
+        border-radius: 24px;
+        padding: 12px 16px;
+        text-align: center;
+        width: 40%;
+        background: #61BB4A;
+        border: 1px solid #4e9c3b;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    
+    #inscription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 70%;
+    }
+    
+    #tab_style {
+        padding: 8px 35px;
+        color: #9A9A9A;
+        font-family: 'Comfortaa';
+        font-size: 18px;
+        border: 0.5px solid black;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #form_contact_mess {
+        padding: 8px 35px;
+        color: #9A9A9A;
+        font-family: 'Comfortaa';
+        font-size: 18px;
+        border: 0.5px solid black;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #contenu-contact {
+        color: #9A9A9A;
+        font-family: 'Comfortaa';
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #contact_titre {
+        font-family: 'Comfortaa';
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #contact_description {
+        font-family: 'Comfortaa';
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #tab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }    
+    
+    #footer {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #306F9D;
+        color: white;
+        position: relative;
+        height: 40vh;
+      }
+    
+    h3 {
+        color: white;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #acyets{
+        position: absolute;
+        top: 90%;
+    }
+    
+    .liens_footer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .liens_footer a{
+        margin-bottom: 20px;
+    }
+
+    a:hover {
+        color: #61BB4A;
+        text-decoration: underline;
+    }
+
+    #gestion_liens {
+        color: #9A9A9A;
+        font-family: 'Comfortaa';
+    }
+
+
+    #form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    form {
+        font-family: 'Comfortaa';
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        width: 50vh;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        box-shadow: 4px 5px 7px #3f3f3f;
+        margin-bottom: 10vh;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+      }      
+    
+    .element_form{
+        width: 25vh;
+        height: 3vh;
+        border-radius: 80px;
+        border: 1px solid #306F9D;
+        background-color: #e3f7ff;
+    }
+    
+    #envoyer_form{
+        width: 17vh;
+        height: 5vh;
+        border-radius: 80px;
+        background-color: #61BB4A;
+        color: white;
+        transition: all ease 0.3s;
+        font-family: 'Comfortaa';
+    }
+    
+    #envoyer_form:hover{
+        background-color: white;
+        border: 1px solid #61BB4A;
+        color: #61BB4A;
+    }
+    
+    #proposer{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #contenu {
+        margin-top: 80px;
+        margin-bottom: 0;
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    textarea {
+        border: 0.5px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        width: 70%;
+        background-color: #e3f7ff;
+    }
+    
+    #envoyer {
+        background-color: #61BB4A;
+        color: white;
+    }
+        
+    #modifier {
+        width: 17vh;
+        height: 5vh;
+        border-radius: 80px;
+        border: 1px solid #000000;
+        background-color: #61BB4A;
+        transition: all ease 0.3s;
+        color: white;    
+    }
+
+    #reserver_font {
+        background: url("../img/");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #reserver_titre {
+        font-family: 'Comfortaa';
+        color: blue;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #reserver_titre2 {
+        font-family: 'Comfortaa';
+        font-weight:bold;
+        color: blue;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #reserver_titre3 {
+        font-family: 'Comfortaa';
+        font-weight:bold;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #reserver_resultat {
+        color: #9A9A9A;
+        font-family: 'Comfortaa';
+        font-size: 15px;
+    }
+
+    #reserver_resultat2 {
+        border: 0.5px solid black;
+        border-radius: 80px;
+        padding: 10px;
+        margin: 10px;
+        width: 10%;
+        background-color: #e3f7ff;
+        text-align: center;
+        font-family: 'Comfortaa';
+        font-size: 15px;
+
+    }
+
+    #reserver_resultat3 {
+        width: 10%;
+        height: 5vh;
+        text-align: center;
+        border-radius: 80px;
+        border: 1px solid #000000;
+        background-color: #61BB4A;
+        transition: all ease 0.3s;
+        font-size: 15px;
+    }
+
+    #reserver_resultat4 {
+        border: 0.5px solid black;
+        border-radius: 80px;
+        width: 10%;
+        background-color: #e3f7ff;
+        text-align: center;
+        font-family: 'Comfortaa';
+        font-size: 15px;
+    }
+    
+    #confirmer {
+        width:30%;
+    }
+
+    #confirm_reservation {
+        background-color: #61BB4A;
+        color: white;
+
+    }
+
+    #reserver-trajet {
+        color: #9A9A9A;
+        font-family: 'Comfortaa';
+        font-size: 18px;
+    }
+
+    #Texte {
+        color: #9A9A9A;
+        font-family: 'Comfortaa';
+        font-size: 18px;
+    }
+   
+}
